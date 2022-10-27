@@ -1,0 +1,12 @@
+.navbar {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+
+.navbar-y {
+    background-color: brown;
+    width: 100px;
+    height: calc( 100% - 70px);
+}
