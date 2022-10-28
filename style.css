@@ -17,8 +17,14 @@
 }
 
 .form-control {
-    width: 750px;
+    width: 880px;
 }
+
+.col-icon i {
+    color: #5b5858;
+    width: 20px;
+}
+
 /* MAIN */
 
 .navbar-y {
@@ -29,7 +35,7 @@
 }
 
 .topbar {
-    background-color: aqua;
+    background-color: #1b72e8;
     width: calc( 100vw - 100px);
     height: 75px;
 }
@@ -41,4 +47,28 @@
 
 .row i {
     font-size: 15px;
+}
+
+.titolo {
+    color: #fff;
+    width: 200px;
+    font-size: 25px;
+}
+
+.btn-primary {
+    width: 85px;
+    background-color: #165bba;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.col-tit-bttn {
+    height: 50%;
+    width: 300px;
+}
+
+.row-cont {
+    height: 80px;
+    width: 300px;
 }
