@@ -18,9 +18,11 @@
 
 .form-control {
     width: 880px;
+    background-color: #e5e5e5;
+    border: 0;
 }
 
-.col-icon i {
+.icon i {
     color: #5b5858;
     width: 20px;
 }
@@ -28,6 +30,10 @@
 .form-controll {
     background-color: #e5e5e5;
     color: #686868;
+}
+
+.search-bar {
+    color: #add7e8;
 }
 
 /* MAIN */
@@ -70,4 +76,28 @@
     color: #fff;
     border-radius: 20px;
     padding: 0.075rem 0.500rem;
+}
+
+table {
+    color: #fff;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.cont-titolo {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-bottom: solid 1px;
+}
+
+.container-tables {
+    width: calc( 100vw - 100px);
+}
+
+.container-main {
+    width: calc( 100vw - 100px);
+    display: flex;
+    flex-direction: column;
 }

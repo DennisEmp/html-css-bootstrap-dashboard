@@ -11,21 +11,22 @@
 </head>
 <body>
     <header>
+
+<!-- INIZIARE DA NAVBAR, NON FARLA CON ROW E COL MA ROW CHE CONTIENE TRE DIV IN FLEX CON SPACE BETWEEN, NO GRANDEZZE FISSE. IN OGNI DIV METTERE. SX DIV CON ALL'INTERNO LOGO CHE HA GRANDEZZA FISSA, CENTRO LA BARRA SEARCH RINCHIUSA IN UN DIV MA NON GRANDEZZA FISSA ALTRIMENTI ALLARGANDO E STRINGENDO LA PAGINA, RIMANE FISSA. A DX I LOGHI CHE VANNO BENE, MA METTERE L'HOVER ALLA BELL CON COLORE GIALLO -->
+
         <div class="navbar">
             <div class="row-nav d-flex justify-content-between align-items-center mx-2">
-                <div class="col">
+                <div class="left">
                     <img src="img/logo.svg" alt="">
                 </div>
-                <div class="col">
+                <div class="search-bar">
                     <nav class="navbar bg-light">
-                        <div class="container-fluid">
                           <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezione di Lavarel" aria-label="Search">
                           </form>
-                        </div>
                       </nav>
                 </div>
-                <div class="col-icon d-flex align-content-center gap-1">
+                <div class="icon d-flex align-content-center gap-1">
                     <i class="fa-solid fa-list"></i>
                     <i class="fa-solid fa-circle-question"></i>
                     <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -55,19 +56,46 @@
                 </div>
                 
             </div>
-            <div class="topbar">
-                <div class="row d-flex py-2">
-                    <div class="col-tit-bttn">
-                        <div class="row-cont d-flex align-items-center">
-                            <span class="titolo mx-2">Boolean</span>
-                                <button type="button" class="btn btn-primary">Piano blaze</button>
+            <div class="container-main">
+                <div class="topbar">
+                    <div class="row d-flex py-2">
+                        <div class="col-tit-bttn">
+                            <div class="row-cont d-flex align-items-center">
+                                <span class="titolo mx-2">Boolean</span>
+                                    <button type="button" class="btn btn-primary">Piano blaze</button>
+                            </div>
+                            <div class="row"></div>
                         </div>
-                        <div class="row"></div>
+                        <div class="col"></div>
                     </div>
-                    <div class="col"></div>
+                </div>
+                <div class="container-tables">
+                    <!-- prima tabella -->
+                    <div class="col-lg-8">
+                        <div class="table">
+                            <div class="cont-titolo">
+                                <span>Prossime classi</span>
+                                <div class="container-plus">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- seconda tabella 8 -->
+                    <div class="col-lg-8">
+
+                    </div>
+                    <!-- prima tabella left 4 -->
+                
+                    <div class="col-lg-4">
+
+                    </div>
+                    <!-- seconda tabella left 4 -->
+                    <div class="col-lg-4">
+                    </div>
                 </div>
             </div>
-            
         </div>
     </main>
 </body>
