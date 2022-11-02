@@ -78,10 +78,11 @@
     padding: 0.075rem 0.500rem;
 }
 
-table {
-    color: #fff;
-    border: solid 1px;
+.table {
+    color: #000;
+    border: solid 1px #d4d4d4;
     border-radius: 5px;
+    margin: 20px 20px; 
 }
 
 .cont-titolo {
@@ -90,6 +91,8 @@ table {
     justify-content: space-between;
     border-radius: 5px;
     border-bottom: solid 1px;
+    align-items: center;
+    padding: 0 5px;
 }
 
 .container-tables {
@@ -100,4 +103,83 @@ table {
     width: calc( 100vw - 100px);
     display: flex;
     flex-direction: column;
+}
+
+.list-group {
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+}
+
+.riga {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-code {
+    background-color: #f16450;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.col-left {
+    display: flex;
+}
+
+.col-right {
+    display: flex;
+}
+
+.list-group-item {
+    color: #000;
+    border-style: none;
+}
+
+.btn-success {
+    background-color: #198754;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.fa-pencil {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.fa-trash {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffc108;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    text-align: center;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.box-faq {
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+.title-table {
+    color: #000;
+    margin-left: 10px;
+    font-size: 25px;
 }
